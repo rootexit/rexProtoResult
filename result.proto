@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package result;
+option go_package = "/;proto";
+
+message RExResp {
+  int32 code = 1;
+  string msg = 2;
+  string request_id = 3;
+  string path = 4;
+  // note: data省略
+}
+
+message BaseResp {
+  int32 code = 1;
+  string msg = 2;
+  // note: data省略
+}
