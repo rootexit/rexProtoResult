@@ -1,7 +1,8 @@
 syntax = "proto3";
 
-package result;
-option go_package = "/;proto";
+package rexProtoResult;
+
+option go_package = "./rexProtoResult";
 
 message RExResp {
   int32 code = 1;

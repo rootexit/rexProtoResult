@@ -4,7 +4,7 @@
 // 	protoc        v5.29.3
 // source: result.proto
 
-package proto
+package rexProtoResult
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -145,7 +145,7 @@ var File_result_proto protoreflect.FileDescriptor
 
 const file_result_proto_rawDesc = "" +
 	"\n" +
-	"\fresult.proto\x12\x06result\"b\n" +
+	"\fresult.proto\x12\x0erexProtoResult\"b\n" +
 	"\aRExResp\x12\x12\n" +
 	"\x04code\x18\x01 \x01(\x05R\x04code\x12\x10\n" +
 	"\x03msg\x18\x02 \x01(\tR\x03msg\x12\x1d\n" +
@@ -154,7 +154,7 @@ const file_result_proto_rawDesc = "" +
 	"\x04path\x18\x04 \x01(\tR\x04path\"0\n" +
 	"\bBaseResp\x12\x12\n" +
 	"\x04code\x18\x01 \x01(\x05R\x04code\x12\x10\n" +
-	"\x03msg\x18\x02 \x01(\tR\x03msgB\tZ\a/;protob\x06proto3"
+	"\x03msg\x18\x02 \x01(\tR\x03msgB\x12Z\x10./rexProtoResultb\x06proto3"
 
 var (
 	file_result_proto_rawDescOnce sync.Once
@@ -170,8 +170,8 @@ func file_result_proto_rawDescGZIP() []byte {
 
 var file_result_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
 var file_result_proto_goTypes = []any{
-	(*RExResp)(nil),  // 0: result.RExResp
-	(*BaseResp)(nil), // 1: result.BaseResp
+	(*RExResp)(nil),  // 0: rexProtoResult.RExResp
+	(*BaseResp)(nil), // 1: rexProtoResult.BaseResp
 }
 var file_result_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for method output_type
